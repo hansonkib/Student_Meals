@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/std"
+    tools:context=".MainActivity">
+
+<!--    <com.jjoe64.graphview.GraphView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="200dip"-->
+<!--        android:id="@+id/graph"-->
+<!--        android:background="@color/colorAccent"/>-->
+<!--    the following is the design for the login page-->
+<!--    <Toolbar-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:title="welcome"-->
+<!--        android:text/Alignment="center"-->
+<!--        android:layout_gravity="center"/>-->
+    <TextView
+        android:id="@+id/titled"
+        android:layout_width="319dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Enter your Credentials to login"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:mtf_labelColor="@android:color/white"
+        android:layout_gravity="center"
+        app:mtf_cardCollapsedHeight="2dp"
+        app:mtf_animationDuration="1000"
+        app:mtf_openKeyboardOnFocus="true"
+        app:mtf_image="@drawable/ic_contact_mail_black_24dp">
+        <EditText
+            android:id="@+id/usernamel"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Username"
+            android:textColorHint="@android:color/white"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:inputType="textEmailAddress"
+            android:layout_margin="10dp"
+            android:textColor="#333"
+            android:textSize="15sp"/>
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        app:mtf_labelColor="@android:color/white"
+        app:mtf_cardCollapsedHeight="2dp"
+        app:mtf_animationDuration="1000"
+        app:mtf_openKeyboardOnFocus="true"
+        app:mtf_image="@drawable/lock">
+        <EditText
+            android:id="@+id/passwordl"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Password"
+            android:textColorHint="@android:color/white"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:inputType="textPassword"
+            android:layout_margin="10dp"
+            android:textColor="#333"
+            android:textSize="15sp"/>
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded_textfield"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/signButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sign up"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_textfield"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="forgot password?"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textColor="@android:color/holo_red_dark"/>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Student Meals review</string>
+    <string name="title_activity_home_page">home_page</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">STUDENT MEALS REVIEW</string>
+    <string name="nav_header_subtitle">meals review</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Breakfast</string>
+    <string name="menu_slideshow">Lunch</string>
+    <string name="menu_tools">Supper</string>
+    <string name="menu_share">Daily statistics</string>
+    <string name="menu_send">Summary</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+</resources>

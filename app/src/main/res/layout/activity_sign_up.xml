@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    android:orientation="vertical"
+    tools:context=".Sign_up">
+    <EditText
+        android:id="@+id/upname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Name in full"
+        android:textAlignment="center"
+        android:background="@drawable/rounded_textfield"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/usern"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="username/Email"
+        android:textAlignment="center"
+        android:background="@drawable/rounded_textfield"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Password"
+        android:textAlignment="center"
+        android:background="@drawable/rounded_textfield"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/repass"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Re-type Password"
+        android:textAlignment="center"
+        android:background="@drawable/rounded_textfield"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sign up"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_textfield"/>
+
+
+</LinearLayout>
